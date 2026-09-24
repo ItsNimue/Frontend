@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MrNobody | Pair Your Bot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-glow bg-glow-1"></div>
+<div class="bg-glow bg-glow-2"></div>
+<div class="bg-grid"></div>
+
+<main class="container">
+
+    <header class="brand">
+        <div class="logo-ring"><span>M</span></div>
+        <h1>Mr<span>Nobody</span></h1>
+        <p class="tagline">Pair your WhatsApp bot in seconds</p>
+    </header>
+
+    <div class="card">
+
+        <div id="panel-code">
+            <label for="phone">WhatsApp Number (with country code)</label>
+            <input type="tel" id="phone" placeholder="94771234567" autocomplete="off">
+            <button class="btn-primary" id="btn-code">Get Pairing Code</button>
+        </div>
+
+        <div class="result hidden" id="result">
+            <div class="spinner" id="spinner"></div>
+            <div class="code-display hidden" id="code-display"></div>
+            <p class="status-text" id="status-text"></p>
+            <pre class="diagnostic hidden" id="diagnostic"></pre>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>🔒 Your Session ID will be sent to your own WhatsApp inbox once paired. Never share it with anyone.</p>
+    </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
