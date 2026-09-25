@@ -1,4 +1,4 @@
-const API_BASE_URL = "https://backend-production-5f64.up.railway.app";
+const API_BASE_URL = "https://backend-production-e517.up.railway.app";
 
 const btnCode = document.getElementById("btn-code");
 const phoneInput = document.getElementById("phone");
